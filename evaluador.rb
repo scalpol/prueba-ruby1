@@ -30,7 +30,7 @@ def aprobado(notas, nota_de_aprobacion = 5)
   obtener_promedio(notas) > nota_de_aprobacion
 end
 
-asistencia = read_alum('asistencia.csv')
+asistencia = read_alum('alumnos.csv')
 alumnos = array_to_hash(asistencia)
 seleccion = 0
 opciones = ['(1) Obtener promedios', '(2) Obtener inasistencias', '(3) Obtener aprobados', '(4) Salir']
